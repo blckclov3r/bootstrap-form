@@ -14,7 +14,7 @@
         <form class="was-validated">
             <div class="form-row pt-5 center-div">
                 <label for="firstname">Text Only</label>
-                <input type="text" class="form-control" id="firstname" onkeypress="return isNumericKey(event)" placeholder="Full name" value="Aljun" required>
+                <input type="text" class="form-control" id="firstname" ondrop="return false;" onpaste="return false;" onkeypress="return isNumericKey(event)" placeholder="Full name" value="Aljun" required>
                 <div class="valid-feedback">
                     Looks Good!
                 </div>
@@ -24,7 +24,7 @@
             </div>
             <div class="form-row center-div">
                 <label for="Code">Number Only</label>
-                <input type="text" class="form-control" id="codenum" onkeypress="return isNumber(event)" placeholder="Code #" value="" required>
+                <input type="text" class="form-control" id="codenum" ondrop="return false;" onpaste="return false;" onkeypress="return isNumber(event)" placeholder="Code #" value="" required>
                 <div class="valid-feedback">
                     Looks Good!
                 </div>
